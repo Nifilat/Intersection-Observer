@@ -1,5 +1,4 @@
 body {
-    background-color: #003B73;
     font-size: 18px;
     line-height: 28px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -26,5 +25,37 @@ header h2{
 
 main{
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-row: 16px ;
+    grid-column: 16px;
+    width: 64px;
+    margin: 48px 48px;
+    grid-template-rows: auto;
+}
+
+main figure{
+
+}
+
+main figcaption{
+    font-size: 14px;
+    font-family: inherit;
+}
+
+main image{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+
+}
+
+footer{
+    background-color: #c3e0e5;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 16px 48px 48px 48px;
+    margin: 0;
+
 }
